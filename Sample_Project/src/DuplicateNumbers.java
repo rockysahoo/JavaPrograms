@@ -9,9 +9,13 @@ public class DuplicateNumbers {
 		
 		int input[]= {3,4,6,44,5,1,5,22,55,11,22,44,1};
 		List<Integer> list_array=new ArrayList<>();
-		
+		//With API
 		findDuplicates(input, list_array);
          System.out.println("Duplicates are : " +list_array);
+         
+         //Without API
+         printRepeating(input);
+         
 	}
 
 	private static List<Integer> findDuplicates(int[] input,List<Integer> list_array) {
@@ -35,5 +39,15 @@ public class DuplicateNumbers {
 		//return the output of duplicates
 		return list_array;
 	}
+	
+	static void printRepeating(int arr[]) 
+	{ 
+	    int i, j; 
+	    System.out.print("Repeating elements are --> ");
+	    for(i = 0; i < arr.length; i++) 
+	        for(j = i + 1; j < arr.length; j++) 
+	        if(arr[i] == arr[j]) 
+	           System.out.print(arr[i]+" , "+" ");
+	}  
 
 }
