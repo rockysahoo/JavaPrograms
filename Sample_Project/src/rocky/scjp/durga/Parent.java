@@ -9,8 +9,8 @@ public class Parent {
 	public static void main(String[] args) {
 		
 		
-		System.out.println(A.aa);
-		A.m2();
+		System.out.println(AAAA.aa);
+		AAAA.m2();
 
 	}
 
@@ -21,7 +21,7 @@ public class Parent {
 
 }
 
-class A{
+class AAAA{
 	
 	static int aa=3;
 	
