@@ -1,4 +1,22 @@
-<<<<<<< HEAD
+/ArraySortBubbleSortAlgo.class
+/AssignmentFactorial.class
+/Childs.class
+/DuplicateNumbers.class
+/E.class
+/P.class
+/com/
+/FinalCalss2.class
+/FinalClass.class
+/FindTheMissingNumberInArray.class
+/FindTheNonRepetedCharInWord.class
+/FindTheNumberOfCharacter.class
+/FirstRepeatedNonRepeatedWords.class
+/LargestNumSmallestNumArray.class
+/MapTest.class
+/MyClass.class
+/MySingletonClass.class
+/OccurrencesOfASubstringRecursively.class
+/PANCardValidation.class
 /ReadFromFileUsingScanner.class
 /RecursionMethodCallAgainAgain.class
 /RemoveVowels.class
@@ -10,10 +28,7 @@
 /SwapOf2Numbers.class
 /Test.class
 /WordSplitsAndCount.class
-/com/
 /debug/
 /rocky/
-=======
-/DuplicateNumbers.class
-/com/
->>>>>>> 3ce8dced287960bb22e8a08ebbad37fba95e8c1b
+/PlusOperator.class
+/PlusOperatorInfinityLoop.class
