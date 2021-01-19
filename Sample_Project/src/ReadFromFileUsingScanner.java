@@ -8,11 +8,9 @@ public class ReadFromFileUsingScanner {
 	  { 
 	    // pass the path to the file as a parameter 
 	    File file = 
-	      new File("C:\\Users\\sbiswajit\\Desktop\\readfile.txt"); 
+	      new File("C:\\Users\\AC48751\\Desktop\\abc.txt"); 
 	    Scanner sc = new Scanner(file); 
 	    
-	   
-	  
 	    while (sc.hasNextLine()) 
 	      //System.out.println(sc.nextLine()); 
 	    	output=sc.nextLine();

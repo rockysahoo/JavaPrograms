@@ -10,7 +10,7 @@ public class PlusOperatorInfinityLoop {
 		for(int i=0;i<10;i++) {
 			System.out.println("Hello 1--> "+i);
 			i=+1; //here i always 1 like i=1 ,going to infinitive loop
-			//i=+1 same as i=1
+			//i=+1 same as i=1 , but  i+=1 as i=i+1
 			System.out.println("Hello 2--> "+i);
 			Thread.sleep(2000);
 		}

@@ -10,6 +10,7 @@ public class WordSplitsAndCount {
 	
 	//spliting the sentence
 	String[] split=input.split(" ");
+	System.out.println(split.length);
 	
 	//storing inside list coz allowed all even duplicates
 	List<String> list_ele=new ArrayList<>();
