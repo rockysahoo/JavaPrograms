@@ -1,5 +1,13 @@
+/**
+ * In bubble sort algorithm, array is traversed from first element to last element. 
+ * Here, current element is compared with the next element. 
+ * If current element is greater than the next element, it is swapped with temp variable.
+ * 
+ *
+ */
 
-public class ArraySortBubbleSortAlgo {
+
+public class BubbleSortAlgo {
 
 	public static void main(String[] args) {
 		int[] input= {4,3,2,4,125,5,7,4,7,88,44,34};

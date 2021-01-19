@@ -1,6 +1,6 @@
 /*
  ->Drawback --> by default singleton class is lazy loading ,so it can't create object while loading ,
-this is why ,people followed the static lass ,it is the alternative option of singleton class
+this is why ,people followed the static class ,it is the alternative option of singleton class
 
 -> why the singleton class method is synchronized(thread safe) by default
 suppose at a time 2 threads call to getInstance() , if instance== null then it ll create the object of that class but if at time 
