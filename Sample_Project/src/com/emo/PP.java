@@ -24,8 +24,11 @@ public class PP {
 				"10884\r\n" + 
 				"";
 		
+<<<<<<< HEAD
 		
 		
+=======
+>>>>>>> branch 'master' of https://github.com/rockysahoo/JavaPrograms.git
 		input=input.trim();
 		input=input.replaceAll(" ", "");
 		input=input.replaceAll("\\r\\n", "','");
